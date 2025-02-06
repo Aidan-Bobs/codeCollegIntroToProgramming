@@ -1,6 +1,6 @@
 var family = ["mom", "dad","bro", "sis"]
 
-/* var myname = "Ai";
+/* var myname = "Aidan";
 
 var surname = "Roberts"
 if (myname.length >= 5 && surname.length >= 5) {
