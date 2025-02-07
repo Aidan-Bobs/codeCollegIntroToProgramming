@@ -6,7 +6,7 @@ var printMultipleTimes = function (howManyTimes, whatToDraw) {
 
 var fifthLetter = function (name) {
     if (name.length < 5) {
-        return;
+        return "name must have at least 5 letters";
         }
         return "The fifth letter of your name is " + name[4] + ".";
     };
@@ -56,5 +56,8 @@ var randomInsultGenerator = function() {
     return randomInsult
 }
     
-    
+var doubles = function(number) {
+    var dNumber = number*=2
+    return dNumber
+}
 console.log(randomInsultGenerator());
