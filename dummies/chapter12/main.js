@@ -42,11 +42,13 @@ function stopTrain() {
 }
 
 function resetTrain() {
-    trainSpeed = 250;
-    trainPosition = 0;
     train.style.left = '0px';
 }
 /*  function additionator(x,y) {
     let z = x+y
     return  z
 } */
+    const d = new Date();
+    let hour = d.getHours();
+
+    console.log(d)
